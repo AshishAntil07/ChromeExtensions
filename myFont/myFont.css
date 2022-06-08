@@ -1,0 +1,88 @@
+[i],
+[i]::after,
+[i]::before{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Main Content */
+
+div#c7083432.c570918234[i]{
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  padding: 5px !important;
+  padding-top: 0 !important;
+  border-radius: 5px;
+  display: flex;
+  position: fixed;
+  transform: scale(1, 1);
+  top: 10px;
+  right: 10px;
+  background-color:rgba(32, 32, 32, 0.85);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+div#h5789034.h7983423[i]{
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  position: absolute;
+  border-radius: 5px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transform: scale(1, 1);
+  background-color: rgba(32, 32, 32, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5px !important;
+  padding-left: 7.5px !important;
+  padding-right: 7.5px !important;
+  font-size: 14px;
+}
+div.pr098735-9{
+  box-sizing: border-box;
+  width: 350px;
+  padding: 25px !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 16px !important;
+  border: 1px solid white;
+  display: flex;
+  cursor: default;
+  line-height: 20px !important;
+  position: absolute;
+  word-spacing: initial !important;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  transform: scale(1, 1);
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+p[i][p507823='false']{
+  color: rgb(109, 109, 109);
+  font-size: 14px !important;
+}
+div.pr098735-9 div.fc5709834[i][fc5709834] div[i][f8052433='true']{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px !important;
+  flex-flow: column wrap;
+}
+div.pr098735-9 div.fc5709834[i][fc5709834] div[i][f8052433='true'] div[i]{
+  margin-bottom: 10px !important;
+}
+div.pr098735-9 div.fc5709834[i][fc5709834] div[i][f8052433='true'] div[i], div.pr098735-9 div[i] > div.fm0987454[i]{
+  color: white;
+  word-wrap: break-word;
+}
+div.pr098735-9 div[i] ~ div.fc5709834[i][fc5709834]{
+  margin-top: 7.5px !important;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "myFont",
+  "version": "1.0.0",
+  "description": "Easy to recognise fonts.",
+  "manifest_version": 3,
+  "author": "Ashish Antil",
+  "action":{
+    "default_title": "myFont"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["myFont.js"],
+    "css": ["myFont.css"],
+    "all_frames": true
+  }],
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "Pictures/icon.png",
+    "48": "Pictures/icon.png",
+    "128": "Pictures/icon.png" 
+  }
+}
