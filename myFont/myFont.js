@@ -9,6 +9,11 @@ document.addEventListener('keydown', e => {
 })
 
 const myFontMain = () => {
+  const aTags = document.getElementsByTagName('a');
+  for(let k = 0; k<aTags.length; k++){
+    aTags[k].style.pointerEvents = "none";
+  }
+
   let zIndex = 2147483447;
   let count = 0;
   
@@ -42,8 +47,7 @@ const myFontMain = () => {
     if(Element.classList.contains('pr098735-9') || Element.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.parentNode?.parentNode?.classList?.contains('pr098735-9')){
       return
     }
-    // const id = e.target.id?e.target.id:sampleids[parseInt(Math.random()*sampleids.length)]
-    // e.target.id = id;
+
     let mainDiv = document.createElement('div')
     mainDiv.classList.add('pr098735-9');
     mainDiv.style.left = `${e.clientX+scrollX}px`;
@@ -69,7 +73,7 @@ const myFontMain = () => {
     </div>
     <div i style='display:flex;justify-content:center;align-items: flex-end;margin-bottom: 10px !important;'>
       <div i class='fm0987454' style='text-align: center'><p i style='text-align:center' p507823='false'>Font Color</p>${getComputedStyle(Element).color ? getComputedStyle(Element).color : null}</div>
-      <div i style = 'height: 20px; width: 20px; border-radius: 50%; margin-left: 10px !important; background-color: ${getComputedStyle(Element).color}'></div>
+      <div i style = 'height: 20px; width: 20px; border-radius: 50%; border: 1px solid white; margin-left: 10px !important; background-color: ${getComputedStyle(Element).color}'></div>
     </div>
     <div i style='font-family: ${getComputedStyle(Element).fontFamily};font-style:${getComputedStyle(Element).fontStyle};font-weight: ${getComputedStyle(Element).fontWeight}; color: white; word-wrap: break-word;'>
       Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
@@ -80,8 +84,10 @@ const myFontMain = () => {
     document.body.insertAdjacentElement('beforeend', mainDiv)
     const closeBtnStyle = document.getElementById(`closeMyFont${count}`).style;
     closeBtnStyle.color = 'white';
+    closeBtnStyle.width = '35px';
     closeBtnStyle.cursor = 'pointer';
     const removeMyFontPr = e => {
+      debugger;
       e.target.removeEventListener('click', removeMyFontPr)
       mainDiv.remove();
     }
@@ -94,6 +100,9 @@ const myFontMain = () => {
     for(let i = 0; i < document.getElementsByClassName('pr098735-9').length;){
       document.getElementsByClassName('pr098735-9')[0].remove()
     }
+    for(let k = 0; k<aTags.length; k++){
+      aTags[k].style.pointerEvents = "initial";
+    }
     pointerFriend.remove();
     document.removeEventListener('mousemove', documentMouseHandler_my_font)
     document.removeEventListener('mouseout', documentMouseOut_my_font)
@@ -102,5 +111,5 @@ const myFontMain = () => {
   }
   
   closeBtn.addEventListener('click', closeAllFunctions_my_font)
-  document.addEventListener('click', propertyTeller_my_font)
+  document.addEventListener('click', propertyTeller_my_font, false)
 }
