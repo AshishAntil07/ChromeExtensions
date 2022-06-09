@@ -9,8 +9,6 @@ Here, you will get some useful chrome extensions that you may use for your comfo
   <li>Hover over any element and click on it for details.</li>
 </ul>
 
-_**Note:** &nbsp;&nbsp;By clicking on links you might be redirected on another webpage._
-
 ## 👁️ Preview:
 
 ### myFont
