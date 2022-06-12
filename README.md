@@ -13,3 +13,6 @@ Here, you will get some useful chrome extensions that you may use for your comfo
 
 ### myFont
 <img src = 'https://github.com/AshishAntil07/AshishAntil07/blob/ChromeExtensions/MyFontPreview.gif'>
+
+## 📰 License:
+This repository is licensed under [MIT License](https://github.com/AshishAntil07/ChromeExtensions/blob/main/LICENSE.md).
