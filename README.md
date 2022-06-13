@@ -1,5 +1,4 @@
-
-# Chrome Extensions
+# <img src='https://github.com/AshishAntil07/AshishAntil07/blob/main/4pointedStar.svg' height='25px' width='25px'> Chrome Extensions
 Here, you will get some useful chrome extensions that you may use for your comfort.
 
 ## 📄 Instructions :-
