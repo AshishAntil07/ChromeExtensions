@@ -1,4 +1,4 @@
-# <img src='https://github.com/AshishAntil07/AshishAntil07/blob/main/4pointedStar.svg' height='25px' width='25px'> Chrome Extensions
+<table align='center' border='0'><tr><td><img src='https://github.com/AshishAntil07/AshishAntil07/blob/home/5pointedStar.svg' height='65px' width='65px'></td> <td><h1>Chrome Extensions</h1></td></tr></table>
 Here, you will get some useful chrome extensions that you may use for your comfort.
 
 ## 📄 Instructions :-
