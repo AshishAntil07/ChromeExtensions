@@ -42,7 +42,6 @@ const myFontMain = () => {
   document.addEventListener('mouseout', documentMouseOut_my_font)
   
   const propertyTeller_my_font = e => {
-    debugger;
     const Element = e.target;
     if(Element.classList.contains('pr098735-9') || Element.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.parentNode?.classList?.contains('pr098735-9') || Element.parentNode?.parentNode?.parentNode?.parentNode?.classList?.contains('pr098735-9')){
       return
@@ -87,7 +86,6 @@ const myFontMain = () => {
     closeBtnStyle.width = '35px';
     closeBtnStyle.cursor = 'pointer';
     const removeMyFontPr = e => {
-      debugger;
       e.target.removeEventListener('click', removeMyFontPr)
       mainDiv.remove();
     }
