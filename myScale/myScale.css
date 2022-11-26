@@ -76,7 +76,7 @@
 }
 .plus.MyScaleElement, .close.MyScaleElement{
   position: fixed;
-  background: darkslategray;
+  background: black;
   z-index: 21147483499;
   color: white;
   height: 50px;
@@ -84,6 +84,7 @@
   border-radius: 5px;
   right: 10px;
   top: 10px;
+  border: 1px solid white;
   font-size: 20px;
   display: flex;
   justify-content: center;
