@@ -1,0 +1,94 @@
+/* Basic Main */
+
+.MyScaleElement{
+  background: transparent;
+  border: 0 solid black;
+  border-bottom: 0 solid black;
+  border-left: 0 solid black;
+  border-right: 0 solid black;
+  border-top: 0 solid black;
+  border-radius: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  bottom: auto;
+  box-shadow: none;
+  -moz-border-radius: none;
+  -webkit-box-shadow: none;
+  clear: none;
+  color: inherit;
+  cursor: auto;
+  display: block;
+  float: none;
+  font: initial;
+  height: auto;
+  left: auto;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: none;
+  min-width: none;
+  overflow: hidden;
+  padding: 0;
+  position: static;
+  right: auto;
+  text-align: inherit;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: inherit;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  visibility: visible;
+  width: auto;
+  z-index: auto;
+  zoom: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Main */
+
+.background.MyScaleElement{
+  background: rgba(211, 211, 211, .2);
+  position: absolute;
+  z-index: 2147483447;
+  width: 100%;
+}
+.lengths.MyScaleElement{
+  padding: 5px;
+  background: darkgray;
+  font-family: 'Courier New', Courier, monospace !important;
+  color: black;
+  z-index: 2147483457;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 5px;
+  position: absolute;
+}
+.point.MyScaleElement{
+  height: 15px;
+  width: 15px;
+  background: blue;
+  transform: translate(-50%, -50%);
+  z-index: 2147483458;
+  border: 2px solid white;
+  position: absolute;
+  border-radius: 50%;
+}
+.plus.MyScaleElement, .close.MyScaleElement{
+  position: fixed;
+  background: darkslategray;
+  z-index: 21147483499;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus.MyScaleElement{
+  right: 70px;
+}

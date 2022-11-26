@@ -1,0 +1,24 @@
+{
+  "name": "MyScale",
+  "version": "1.0.0",
+  "description": "Measure distances in pixels.",
+  "manifest_version": 3,
+  "author": "Ashish Antil",
+  "action":{
+    "default_title": "MyScale"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["myScale.js"],
+    "css": ["myScale.css"],
+    "all_frames": true
+  }],
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "Pictures/icon.svg",
+    "48": "Pictures/icon.svg",
+    "128": "Pictures/icon.svg" 
+  }
+}
